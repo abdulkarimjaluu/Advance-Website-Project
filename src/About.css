@@ -1,0 +1,72 @@
+.about-header{
+  background-color: #0044cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-content{
+  padding: 20px;
+}
+
+.about-intro{
+  text-align: center;
+}
+
+.about-intro h3{
+  color: #0044cc;
+}
+
+.about-intro ul{
+  list-style: none;
+  padding: 0%;
+}
+
+.about-intro ul li{
+  display: inline-block;
+  margin: 10px;
+  color: #0044cc;
+}
+
+.about-intro img{
+  width: 20%;
+  margin: 20px 0;
+}
+
+.about-commitment{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.about-commitment img{
+  width: 20%;
+}
+
+.commitment-text{
+  width: 50%;
+}
+
+.about-earn{
+  display: flex;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.about-earn h3{
+  color: #0044cc;
+}
+
+.about-earn button{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.about-earn img{
+  width: 10%;
+  align-items: center;
+}

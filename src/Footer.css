@@ -1,0 +1,47 @@
+footer{
+    background-color: #3b3d41;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section{
+    width: 25%;
+}
+
+.footer-section h3{
+    border-bottom: 2px solid#ff5a5f;
+    padding-bottom: 5px;
+}
+
+.footer-section ul{
+    list-style: none;
+    padding: 0%;
+}
+
+.footer-section ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer form input{
+    padding: 5px;
+}
+
+footer form button{
+    background-color: #ff5a5f;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}

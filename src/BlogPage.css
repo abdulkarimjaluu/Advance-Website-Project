@@ -1,0 +1,89 @@
+.contact-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.news .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news .heading {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.news .heading span {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.news .heading h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.news .heading p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.news .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.news .box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  flex: 1 1 calc(33.333% - 20px); /* 3 items per row */
+  max-width: calc(33.333% - 20px); /* Ensure the boxes stay within 3 per row */
+}
+
+.news .box:hover {
+  transform: translateY(-10px);
+}
+
+.news .box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.news .box span {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.news .box h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.news .box p {
+  font-size: 1rem;
+  color: #444;
+  padding: 0 10px; /* Add padding to improve readability */
+}

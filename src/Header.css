@@ -1,0 +1,82 @@
+/* header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 10px 20px;
+    background-color: rgb(112, 9, 209);
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo i {
+    margin-right: 0.5rem;
+  }
+  
+  .navigation .menu {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav__item {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .nav__active {
+    color: #ff5a5f;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .search-box input {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  .search-box i {
+    font-size: 1.25rem;
+  }
+  
+  .user .login-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5a5f;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user .login-button:hover {
+    background-color: #e94c4c;
+  }
+  
